@@ -1,0 +1,8 @@
+<nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+        <button class="btn btn-outline-success me-2" type="button" routerLink="/">Catalogo</button>
+        <button class="btn btn-outline-success me-2" type="button" routerLink="/carrito">Carrito
+            <i class="fa fa-shopping-cart"></i>(<span class="fw-bold">{{carritoService.cantidad()}}</span>)
+        </button>
+    </form>
+  </nav>
